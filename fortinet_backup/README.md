@@ -1,6 +1,4 @@
-# Project Title
-
-Fortinet Firewal Backup
+# Fortinet Firewal Backup
 
 ## Description
  
