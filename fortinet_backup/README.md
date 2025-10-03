@@ -1,4 +1,4 @@
-# Fortinet Firewal Backup
+# Fortinet Firewall Backup Automation Project
 
 ## Description
  
