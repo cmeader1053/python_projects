@@ -6,7 +6,7 @@ Directions:   Script requires a REST API token (see v2 script for directions) an
               bucket and possibly KMS permissions to handle the encryption. Aditionally, you will need to generate access an 
               secret keys for the IAM user which confogured as environment variables on the local host where the script 
               executes. This script requires both a local file path and S3 object key for logs file uploads.
-Updates:      Introduces logging and uploads logs file for script execution to both local file path and S3 bucket.  
+Updates:      Requires the use of the loggin python library. Introduces logging and uploads logs file for script execution to both local file path and S3 bucket.  
 """
 
 import pwinput
