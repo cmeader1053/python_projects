@@ -24,6 +24,7 @@ Python project to automate Fortinet firewall backups. Various versions of the co
   2. Create IAM user in AWS and assign permissions to user - I found inline policies to be easier. See policies document
   3. Generate access and secret access key credentials for the IAM user. Store with API token in Secrets Manager
   4. Set Windows environment variables to the access and secret access key
+* Version four introduces logging. Logs for script execution are now uploaded to a previously configured S3 bucket and local file path. Requires Logging python library.
 
 Setting environment variables in Windows using Powershell
 ```
