@@ -1,3 +1,14 @@
+"""
+Script Name:  fortinet_backup_v4.py
+Description:  Version 4 of script. Fortinet firewall backups to both local file path and S3 bucket including logging for script execution.
+Directions:   Script requires a REST API token (see v2 script for directions) and previously created S3 bucket in AWS. 
+              To access the S3 bucket, this requires the creation of an IAM user with permissions to drop objects into the 
+              bucket and possibly KMS permissions to handle the encryption. Aditionally, you will need to generate access an 
+              secret keys for the IAM user which confogured as environment variables on the local host where the script 
+              executes. This script requires both a local file path and S3 object key for logs file uploads.
+Updates:      Introduces logging and uploads logs file for script execution to both local file path and S3 bucket.  
+"""
+
 import pwinput
 import datetime
 import os
