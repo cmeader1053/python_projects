@@ -26,6 +26,8 @@ Python project to automate Fortinet firewall backups. Various versions of the co
   4. Set Windows environment variables to the access and secret access key
 * Version four introduces logging. Logs for script execution are now uploaded to a previously configured S3 bucket and local file path. Requires Logging python library.
 
+All versions require the proper libraries to be installed. Utilzie pip to install libraries prior to script execution. 
+
 Setting environment variables in Windows using Powershell
 ```
 setx {ENV_VAR_NAME} "ENTER_ENV_VARIABLE"  # Set environment variable 
@@ -58,6 +60,10 @@ Chris Meader
     * API token no longer hard coded 
     * Requires various AWS resources 
     * Requires use of environmental variables set inside Windows
+* v4
+    * Introduces logging with the use of logging libraries.
+    * Log files stored both locally and in S3
+    * Continues to require use of environmental variables 
 
 ## License
 
